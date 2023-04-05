@@ -1,5 +1,22 @@
-header {
-   background-image: linear-gradient(#D9C9E1, #A9248F);
-   color: #000000;
+* {
+   margin: 0;
+   padding: 0;
 }
 
+.cabecalho {
+   background-image: linear-gradient(#D9C9E1, #A9248F);
+   color: #000000;
+   display: flex;
+   justify-content: space-around;
+}
+
+.cabecalho-itens {
+   font-size: 36px;
+   margin: 5px;
+   display: inline-block;
+}
+
+.cabecalho-logo {
+   width: 25%;
+   height: 25%;
+}
