@@ -14,9 +14,33 @@
    font-size: 36px;
    margin: 5px;
    display: inline-block;
+   color: #ffffff;
+   padding-top: 20px;
 }
 
 .cabecalho-logo {
    width: 25%;
    height: 25%;
 }
+
+.formadores {
+   background-image: linear-gradient(#A9248F, #D9C9E1);
+   width: 1440px;
+   height: 300px;
+}
+
+.formadores-titulo {
+   color: #3B0D54;
+   font-size: 70px;
+   text-align: center;
+   padding-top: 50px;
+}
+
+.formadores-itens {
+   font-size: 36px;
+   color:#A9248F;
+   text-align: center;
+   padding-top: 30px;
+}
+
+
