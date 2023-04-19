@@ -3,6 +3,10 @@
    padding: 0;
 }
 
+body  {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
 .cabecalho {
    background-image: linear-gradient(#D9C9E1, #A9248F);
    color: #000000;
@@ -43,4 +47,16 @@
    padding-top: 30px;
 }
 
+.galeria {
+   background-color: #D9C9E1;
+   font-size: 36px;
+   display: flex;
+   justify-content: space-around;
+   font-weight: bold;
+}
 
+.galeria-foto {
+   width: 500px;
+   border-radius: 40px;
+   padding-top: 20px;
+}
