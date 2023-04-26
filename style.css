@@ -29,7 +29,7 @@ body  {
 
 .formadores {
    background-image: linear-gradient(#A9248F, #D9C9E1);
-   width: 1440px;
+   width: auto;
    height: 300px;
 }
 
@@ -56,7 +56,32 @@ body  {
 }
 
 .galeria-foto {
-   width: 500px;
-   border-radius: 40px;
+   width: 200px;
+   border-radius: 20px;
    padding-top: 20px;
+}
+
+.legenda {
+   text-align: center;
+   font-size: 15px;
+   color:#A9248F;
+}
+
+.galeria-todos {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.rodape {
+   background-color: #D9C9E1;
+   text-align: center;
+ }
+
+.copyright {
+   font-size: 15px;
+   color: #A9248F;
+}
+
+.rodape-logo {
+   width: 10%;
 }
